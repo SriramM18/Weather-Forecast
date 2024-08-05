@@ -12,6 +12,7 @@ function App() {
           <Route path="/" element={<FetchData2 />} />
           <Route path="/about" element={<FetchData />} />
           <Route path="/hourly" element={<Hourly/>}/>
+          <Route path= ""/>
         </Routes>
     </div>
   );
